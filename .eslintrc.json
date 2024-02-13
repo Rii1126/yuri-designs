@@ -1,6 +1,6 @@
 {
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "plugins": ["react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:next/recommended"],
+  "plugins": ["react", "next"],
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
@@ -11,11 +11,9 @@
   "rules": {
     // Add any additional rules or overrides here
   },
-  
   "settings": {
     "react": {
       "version": "detect"
     }
   }
-  // ... other ESLint configurations
 }
